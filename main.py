@@ -164,4 +164,5 @@ keep_alive()
 
 # >>> COLOQUE SEU NOVO TOKEN DO DISCORD AQUI NA ÚLTIMA LINHA <<<
 bot.run('MTUwNjEzMjgxNzcxMTcyNjY1Mw.GBaM1c.mINoD-JNfa87aDStCUtI9z7QnQqBO9joNlQtus')
+
           
