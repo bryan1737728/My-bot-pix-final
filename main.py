@@ -163,5 +163,5 @@ async def on_ready():
 keep_alive()
 
 # >>> COLOQUE SEU NOVO TOKEN DO DISCORD AQUI NA ÚLTIMA LINHA <<<
-client.run('MTUwNjEzMjgxNzcxMTcyNjY1Mw.GwUxJ4.b9R5SVlaAm75TUTNaWo-82xTrinn4uHf_o6sds')
+bot.run('MTUwNjEzMjgxNzcxMTcyNjY1Mw.GBaM1c.mINoD-JNfa87aDStCUtI9z7QnQqBO9joNlQtus')
           
