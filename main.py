@@ -17,7 +17,7 @@ def keep_alive():
     t.start()
 
 intents = discord.Intents.default()
-intents.message_content = True  # LEMBRETE: Ativar a chavinha "Message Content Intent" no site do Discord!
+intents.message_content = True 
 client = discord.Client(intents=intents)
 tree = app_commands.CommandTree(client)
 
@@ -64,7 +64,6 @@ class PainelFila(discord.ui.View):
             
             guild = interaction.guild
             
-            # CORRIGIDO: Agora tudo em português certinho
             categoria = discord.utils.get(guild.categories, name='PARTIDAS-PIX')
             if not categoria:
                 categoria = await guild.create_category('PARTIDAS-PIX')
@@ -162,5 +161,6 @@ async def on_ready():
 
 keep_alive()
 
-# >>> COLOQUE SEU NOVO TOKEN DO DISCORD AQUI NA ÚLTIMA LINHA <<<
+# COLOQUE SEU TOKEN DO DISCORD ABAIXO
 client.run('MTUwNjEzMjgxNzcxMTcyNjY1Mw.GDDtH4.f-Fk9uobkr8nYdo7TCyN_BmfrbSXjk1_j3S2AI')
+            
